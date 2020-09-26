@@ -1,3 +1,4 @@
+#!/bin/sh
 subscription-manager register --username jeffvoid --password Pmataga1@ --auto-attach
 subscription-manager list
 subscription-manager list --available
