@@ -11,7 +11,7 @@ yum install readline-devel -y
 yum install openssl-devel -y
 yum install lzo-devel -y
 yum install pam-devel -y
-yum install make gmake cmake -y
+yum install make cmake -y
 yum install wget -y
 yum install nano -y
 yum install bzip2 -y
