@@ -73,9 +73,9 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_c
 #sed -i 's/#Port 22/Port 222/' /etc/ssh/sshd_config
 service sshd restart
 echo "root:Pmataga87465622" | chpasswd
-wget https://matt.ucc.asn.au/dropbear/dropbear-2020.79.tar.bz2
-bzip2 -cd dropbear-2020.79.tar.bz2 | tar xvf -
-cd dropbear-2020.79
+wget https://matt.ucc.asn.au/dropbear/dropbear-2020.81.tar.bz2
+bzip2 -cd dropbear-2020.81.tar.bz2 | tar xvf -
+cd dropbear-2020.81
 ./configure && make && make install
 ln /usr/local/sbin/dropbear /usr/sbin/dropbear
 mkdir /etc/dropbear
