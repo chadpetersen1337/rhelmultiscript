@@ -1,8 +1,8 @@
 #!/bin/sh
-subscription-manager register --username jeffvoid --password Pmataga1@ --auto-attach
+subscription-manager register --username denniscrawvbov --password Pmataga1@ --auto-attach
 subscription-manager list
 subscription-manager list --available
-subscription-manager attach --pool=8a85f99a6d889880016db7f4a6245d67
+subscription-manager attach --pool=8a85f999759ed5b40175b7309df54fad
 subscription-manager attach --auto
 cd /etc/ssh
 chattr -ais sshd_config
